@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AfyaIntel Agent — bilingual, local-first health-facility operations support.">
+  <title>AfyaIntel Agent | Majaliwa Tani Mabirika</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="AfyaIntel home">
+        <span class="brand-mark">AI</span>
+        <span><strong>AfyaIntel</strong><small>Agentic Operations Support</small></span>
+      </a>
+      <button class="menu-button" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav id="nav" class="nav" aria-label="Primary navigation">
+        <a href="#problem">Problem</a>
+        <a href="#solution">Solution</a>
+        <a href="#architecture">Architecture</a>
+        <a href="#evidence">Evidence</a>
+        <a href="#demo">Demo</a>
+        <a href="#roadmap">Roadmap</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Kaggle × Google · 5-Day AI Agents Capstone</p>
+          <h1>Local-first health-facility operations support, built for reliability.</h1>
+          <p class="hero-copy">AfyaIntel turns validated medicine-stock data into English and Swahili shortage, expiry, and management insights. Deterministic tools protect factual accuracy and clinical safety; Gemini remains an optional language layer.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#demo">Try the portfolio demo</a>
+            <a class="button secondary" href="case-study.html">Read the case study</a>
+          </div>
+          <ul class="trust-list" aria-label="Project principles">
+            <li>Local-first</li>
+            <li>Bilingual</li>
+            <li>Safety-governed</li>
+            <li>Human-supervised</li>
+          </ul>
+        </div>
+        <aside class="hero-card" aria-label="Project snapshot">
+          <div class="status-row"><span class="status-dot"></span> Working local prototype</div>
+          <dl>
+            <div><dt>Core tools</dt><dd>8</dd></div>
+            <div><dt>Local evaluation</dt><dd id="eval-score">14/14</dd></div>
+            <div><dt>Model required</dt><dd>No</dd></div>
+            <div><dt>Languages</dt><dd>EN / SW</dd></div>
+          </dl>
+          <p class="micro">Synthetic data only. Not a medical device.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="problem" class="section">
+      <div class="container split">
+        <div>
+          <p class="section-kicker">The challenge</p>
+          <h2>Stock decisions are difficult when records, connectivity, and reporting are fragmented.</h2>
+        </div>
+        <div class="prose">
+          <p>Small facilities may depend on paper registers or disconnected spreadsheets. Staff must manually identify shortages, review expiry dates, and prepare updates for supervisors.</p>
+          <p>A cloud-only assistant also introduces a second risk: the product can stop working when the network or free-tier model quota is unavailable.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="solution" class="section surface">
+      <div class="container">
+        <p class="section-kicker">The solution</p>
+        <h2>A deterministic operational core with an optional generative layer.</h2>
+        <div class="feature-grid">
+          <article class="feature"><span>01</span><h3>Validated inventory</h3><p>Rejects missing columns, invalid dates, negative quantities, and mixed-facility records.</p></article>
+          <article class="feature"><span>02</span><h3>Shortage and expiry tools</h3><p>Computes threshold breaches and 30-day expiry risk from structured data—not model memory.</p></article>
+          <article class="feature"><span>03</span><h3>English and Swahili</h3><p>Produces concise summaries and weekly reports for bilingual operational workflows.</p></article>
+          <article class="feature"><span>04</span><h3>Clinical safety gateway</h3><p>Blocks diagnosis, prescription, dosage, treatment, and emergency requests before any model call.</p></article>
+          <article class="feature"><span>05</span><h3>Quota resilience</h3><p>Core tools remain available locally when Gemini, connectivity, or quota is unavailable.</p></article>
+          <article class="feature"><span>06</span><h3>Human accountability</h3><p>Procurement, redistribution, communication, payment, and clinical decisions remain with authorized people.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="architecture" class="section dark-section">
+      <div class="container">
+        <p class="section-kicker">Architecture</p>
+        <h2>Agentic engineering through explicit boundaries.</h2>
+        <div class="architecture" role="img" aria-label="AfyaIntel architecture flow">
+          <div class="node accent">User<br><small>CLI / HTTP / Future A2UI</small></div>
+          <div class="arrow">→</div>
+          <div class="node">Orchestrator</div>
+          <div class="arrow">→</div>
+          <div class="node safety">Safety Gateway</div>
+          <div class="branch-grid">
+            <div class="branch"><span>Operational</span><strong>Validated Data → Deterministic Tools</strong></div>
+            <div class="branch"><span>Clinical / Emergency</span><strong>Human Referral</strong></div>
+            <div class="branch"><span>No local match</span><strong>Optional Gemini → Local Fallback</strong></div>
+          </div>
+        </div>
+        <div class="protocol-grid">
+          <div><b>MCP</b><span>Approved technical documentation and scoped tools</span></div>
+          <div><b>A2A</b><span>Draft agent card for future specialist delegation</span></div>
+          <div><b>A2UI</b><span>Declarative dashboard schema with trusted rendering</span></div>
+          <div><b>Skills</b><span>On-demand stock-operations procedural memory</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="evidence" class="section">
+      <div class="container">
+        <p class="section-kicker">Evidence</p>
+        <h2>Claims are backed by repeatable checks.</h2>
+        <div class="evidence-grid">
+          <article><strong>14/14</strong><span>Zero-API local evaluation checks</span></article>
+          <article><strong>10</strong><span>Independent Python unit tests</span></article>
+          <article><strong>10</strong><span>Security red-team scenarios</span></article>
+          <article><strong>0</strong><span>Raw prompts stored in audit logs</span></article>
+        </div>
+        <div class="course-map">
+          <div><span>Day 1</span><b>Harness, tools, guardrails, evaluation</b></div>
+          <div><span>Day 2</span><b>MCP, A2A, A2UI tool architecture</b></div>
+          <div><span>Day 3</span><b>Portable Agent Skill and context strategy</b></div>
+          <div><span>Day 4</span><b>Threat model, red team, human oversight</b></div>
+          <div><span>Day 5</span><b>HTTP API, Docker, observability, rollback</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="demo" class="section surface">
+      <div class="container demo-grid">
+        <div>
+          <p class="section-kicker">Interactive portfolio demo</p>
+          <h2>Explore the local operational paths.</h2>
+          <p>This browser demo uses the same synthetic scenario and does not call an API. The real Python project remains the source of tested behavior.</p>
+          <div class="demo-actions" role="group" aria-label="Demo actions">
+            <button data-action="summary">Inventory summary</button>
+            <button data-action="low">Low stock</button>
+            <button data-action="expiry">Expiry alerts</button>
+            <button data-action="sw-report">Swahili report</button>
+            <button data-action="safety">Clinical safety</button>
+          </div>
+        </div>
+        <div class="console" aria-live="polite">
+          <div class="console-head"><span></span><span></span><span></span><b>AfyaIntel · LOCAL_TOOL</b></div>
+          <pre id="console-output">Select a demo action to view a deterministic result.</pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="roadmap" class="section">
+      <div class="container split">
+        <div>
+          <p class="section-kicker">Roadmap</p>
+          <h2>From responsible prototype to governed pilot.</h2>
+        </div>
+        <ol class="roadmap">
+          <li><b>Close course evidence</b><span>Capture Antigravity CLI, MCP, and Skill-trigger screenshots.</span></li>
+          <li><b>Add authenticated access</b><span>Role-based access, Secret Manager, and controlled audit retention.</span></li>
+          <li><b>Integrate approved inventory data</b><span>Replace synthetic CSV with a reviewed read-only facility API.</span></li>
+          <li><b>Governed pilot</b><span>Security, legal, clinical, and data-protection approval before real use.</span></li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div><strong>AfyaIntel Agent</strong><p>Built by Majaliwa Tani Mabirika as a Kaggle × Google AI Agents capstone.</p></div>
+      <div><p>Prototype only · Synthetic data · Human-supervised · No diagnosis or prescription</p></div>
+    </div>
+  </footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>

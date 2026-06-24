@@ -1,0 +1,32 @@
+# Secrets
+.env
+*.env
+!.env.example
+*.key
+*.pem
+credentials.json
+service-account.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+.afyaintel_cache.json
+.afyaintel_audit.jsonl
+
+# Builds
+node_modules/
+dist/
+build/
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*.local.json
+
+*.pyc
+.afyaintel_sync_queue.jsonl

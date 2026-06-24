@@ -1,0 +1,28 @@
+{
+  "name": "AfyaIntel Operations Agent",
+  "version": "1.0.0",
+  "description": "Bilingual, local-first health-facility operations support for stock, expiry, reporting, and safe human escalation.",
+  "capabilities": [
+    "inventory-summary",
+    "low-stock-detection",
+    "expiry-alerting",
+    "weekly-report-generation",
+    "english-swahili-responses",
+    "clinical-safety-routing"
+  ],
+  "input_modes": ["text"],
+  "output_modes": ["text", "markdown", "json"],
+  "authentication": "none for local prototype; deployment must add authenticated access",
+  "data_policy": {
+    "allowed": ["synthetic inventory data", "de-identified operational prompts"],
+    "prohibited": ["identifiable patient data", "clinical diagnosis", "prescription requests"]
+  },
+  "human_approval_required_for": [
+    "procurement",
+    "stock redistribution",
+    "record modification",
+    "external communication",
+    "clinical decisions"
+  ],
+  "status": "prototype; A2A exposure not enabled"
+}

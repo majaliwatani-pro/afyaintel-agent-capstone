@@ -1,0 +1,11 @@
+item_code,batch_id,item_name,category,current_stock,minimum_required,daily_issue_average,unit,expiry_date,facility_name,readiness_level,sync_status
+MED-001,BAT-PARA-2026,Paracetamol,Essential Meds,1200,500,35,tablets,2027-12-31,Afya Bora Dispensary,Level 2: Hybrid,queued
+MED-002,BAT-AMOX-2026,Amoxicillin,Antibiotics,800,400,18,capsules,2027-06-30,Afya Bora Dispensary,Level 2: Hybrid,queued
+MED-003,BAT-ORS-2026,ORS,Rehydration,300,100,9,sachets,2026-11-30,Afya Bora Dispensary,Level 2: Hybrid,queued
+DX-001,BAT-RDT-2026,Malaria RDT,Diagnostics,15,150,12,kits,2027-03-31,Afya Bora Dispensary,Level 2: Hybrid,queued
+CON-001,BAT-GLOVE-2026,Gloves,Consumables,500,200,28,pairs,2028-01-15,Afya Bora Dispensary,Level 2: Hybrid,queued
+CON-002,BAT-SYR-2026,Syringes,Consumables,400,150,14,pieces,2027-09-30,Afya Bora Dispensary,Level 2: Hybrid,queued
+MED-004,BAT-ALU-2026,Artemether Lumefantrine,Antimalarials,25,200,10,doses,2026-07-15,Afya Bora Dispensary,Level 2: Hybrid,queued
+MED-005,BAT-ZINC-2026,Zinc tablets,Supplements,600,200,11,tablets,2026-12-31,Afya Bora Dispensary,Level 2: Hybrid,queued
+MED-006,BAT-CEF-2026,Ceftriaxone,Antibiotics,5,30,2,vials,2026-06-30,Afya Bora Dispensary,Level 2: Hybrid,queued
+MED-007,BAT-IVF-2026,IV fluids,Fluids,150,50,4,bottles,2027-04-30,Afya Bora Dispensary,Level 2: Hybrid,queued

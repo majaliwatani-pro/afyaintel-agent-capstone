@@ -1,0 +1,80 @@
+{
+  "agent": "AfyaIntel",
+  "version": "1.1.0-research",
+  "scope": "Decision-support and health-facility operations prototype for low-resource settings",
+  "clinical_boundary": "Does not diagnose, prescribe, or replace licensed professionals.",
+  "tools": [
+    {
+      "name": "inventory_summary",
+      "type": "deterministic_local",
+      "permission": "facility_staff",
+      "fallback": "always available offline"
+    },
+    {
+      "name": "low_stock_detector",
+      "type": "deterministic_local",
+      "permission": "facility_staff",
+      "fallback": "always available offline"
+    },
+    {
+      "name": "expiry_alert_detector",
+      "type": "deterministic_local",
+      "permission": "facility_staff",
+      "fallback": "always available offline"
+    },
+    {
+      "name": "weekly_report_generator",
+      "type": "deterministic_local",
+      "permission": "facility_staff",
+      "fallback": "always available offline"
+    },
+    {
+      "name": "clinical_safety_gateway",
+      "type": "deterministic_guardrail",
+      "permission": "all",
+      "fallback": "always runs before model calls"
+    },
+    {
+      "name": "clinical_nlp_cue_extractor",
+      "type": "deterministic_prototype",
+      "permission": "licensed_clinician_review",
+      "fallback": "human-review only"
+    },
+    {
+      "name": "stockout_forecast_baseline",
+      "type": "transparent_deterministic_forecast",
+      "permission": "facility_manager",
+      "fallback": "works offline using daily_issue_average"
+    },
+    {
+      "name": "fhir_inventory_bundle_export",
+      "type": "interoperability_demo",
+      "permission": "data_governance_officer",
+      "fallback": "requires validation before real exchange"
+    },
+    {
+      "name": "sync_queue_simulator",
+      "type": "offline_first_demo",
+      "permission": "facility_staff",
+      "fallback": "queues de-identified operational summary"
+    },
+    {
+      "name": "a2ui_dashboard_payload",
+      "type": "generative_ui_template_demo",
+      "permission": "facility_staff",
+      "fallback": "deterministic JSON payload"
+    },
+    {
+      "name": "human_approval_matrix",
+      "type": "governance_policy",
+      "permission": "all",
+      "fallback": "always available offline"
+    },
+    {
+      "name": "gemini_response_generator",
+      "type": "optional_llm",
+      "permission": "non_clinical_explanations_only",
+      "fallback": "local help response when quota unavailable"
+    }
+  ]
+}

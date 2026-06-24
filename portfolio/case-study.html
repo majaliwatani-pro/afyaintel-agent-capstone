@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AfyaIntel Agent professional case study.">
+  <title>AfyaIntel Case Study</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <style>
+    .case-hero{padding:72px 0 46px;background:linear-gradient(180deg,#eef4ef,#f6f8f5)}
+    .case{max-width:860px;margin:0 auto;padding:64px 0 100px}
+    .case h2{font-size:2rem;margin-top:56px}.case h3{margin-top:34px}.case p,.case li{color:#42534a}
+    .case table{width:100%;border-collapse:collapse;margin:24px 0}.case th,.case td{text-align:left;padding:13px;border:1px solid #d5e0d9;vertical-align:top}
+    .case code{background:#edf4ef;padding:2px 6px;border-radius:6px}.back{display:inline-flex;margin-top:24px;text-decoration:none;color:#176b4d;font-weight:800}
+  </style>
+</head>
+<body>
+<header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html"><span class="brand-mark">AI</span><span><strong>AfyaIntel</strong><small>Agentic Operations Support</small></span></a><a class="button secondary" href="index.html">Back to portfolio</a></div></header>
+<section class="case-hero"><div class="container"><p class="eyebrow">Professional case study</p><h1>Building a bilingual, local-first operations agent for low-resource health facilities.</h1><p class="hero-copy">A practical demonstration of deterministic tools, optional generative AI, clinical safety, evaluation, interoperability, and deployment readiness.</p></div></section>
+<main class="container"><article class="case">
+<h2>Executive summary</h2>
+<p>AfyaIntel helps authorized facility staff monitor medicine and supply stock, identify expiry risks, and draft English or Swahili operations reports. It is designed to keep essential workflows available when connectivity or model quota is unavailable.</p>
+<h2>The problem</h2>
+<p>Small facilities may rely on paper registers, disconnected spreadsheets, and manual reporting. Staff can spend time identifying shortages, checking expiry dates, and preparing supervisor updates. A cloud-only assistant introduces additional dependence on cost, connectivity, and quota.</p>
+<h2>The solution</h2>
+<ul><li>Validated inventory ingestion</li><li>Low-stock and expiry analysis</li><li>English and Swahili summaries</li><li>Weekly management reports</li><li>Clinical-safety and emergency routing</li><li>Local fallback and privacy-safe audit metadata</li></ul>
+<h2>Architecture</h2>
+<p>The orchestrator applies language routing and a deterministic clinical-safety check before selecting a stock, expiry, report, or item-lookup tool. Gemini is called only when no local operational tool matches and the request is non-clinical. A quota or network failure returns a local fallback.</p>
+<h2>Course alignment</h2>
+<table><thead><tr><th>Area</th><th>Evidence</th></tr></thead><tbody><tr><td>Agentic engineering</td><td>Explicit harness, scope, tools, guardrails, and evaluation</td></tr><tr><td>Interoperability</td><td>MCP policy, A2A agent card, A2UI schema</td></tr><tr><td>Agent Skills</td><td>On-demand stock-operations Skill with scripts and eval cases</td></tr><tr><td>Security</td><td>Threat model, red team, human approval, privacy audit</td></tr><tr><td>Production</td><td>HTTP API, Dockerfile, observability, rollback</td></tr></tbody></table>
+<h2>Evaluation</h2>
+<p>The project includes 14 zero-API evaluation checks and 10 Python unit tests. The tests verify inventory accuracy, bilingual routing, safety refusal, emergency escalation, invalid-data rejection, audit privacy, and tool-contract integrity.</p>
+<h2>Responsible scope</h2>
+<p>AfyaIntel uses synthetic data, does not diagnose or prescribe, and cannot autonomously change inventory, order medicines, pay suppliers, or communicate externally. Human approval remains mandatory.</p>
+<h2>Outcome</h2>
+<p>The completed prototype demonstrates a credible path from course learning to a governed operational pilot while remaining honest about pending external codelab evidence and production approvals.</p>
+<a class="back" href="index.html">← Return to portfolio</a>
+</article></main>
+<footer><div class="container footer-grid"><div><strong>AfyaIntel Agent</strong><p>Majaliwa Tani Mabirika</p></div><div><p>Prototype only · Synthetic data · Human-supervised</p></div></div></footer>
+</body>
+</html>

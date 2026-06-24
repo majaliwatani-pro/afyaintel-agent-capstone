@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AfyaIntel Operations Dashboard Intent",
+  "type": "object",
+  "required": ["title", "reference_date", "components"],
+  "properties": {
+    "title": {"type": "string"},
+    "reference_date": {"type": "string", "format": "date"},
+    "components": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "id", "data_binding"],
+        "properties": {
+          "type": {
+            "enum": ["metric", "alert_list", "inventory_table", "approval_notice"]
+          },
+          "id": {"type": "string"},
+          "label": {"type": "string"},
+          "data_binding": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

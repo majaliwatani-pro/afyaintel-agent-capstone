@@ -1,0 +1,8 @@
+.env
+.venv
+__pycache__
+*.pyc
+.afyaintel_cache.json
+.afyaintel_audit.jsonl
+screenshots
+uv.lock

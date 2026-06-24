@@ -1,0 +1,440 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "timestamp": "2026-06-19T08:58:29+00:00",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Organization",
+        "id": "facility-demo",
+        "name": "Afya Bora Dispensary",
+        "type": [
+          {
+            "text": "Primary care facility"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Basic",
+        "id": "MED-001",
+        "code": {
+          "text": "Medication inventory snapshot"
+        },
+        "subject": {
+          "reference": "Organization/facility-demo"
+        },
+        "extension": [
+          {
+            "url": "itemName",
+            "valueString": "Paracetamol"
+          },
+          {
+            "url": "category",
+            "valueString": "Essential Meds"
+          },
+          {
+            "url": "currentStock",
+            "valueInteger": 1200
+          },
+          {
+            "url": "minimumRequired",
+            "valueInteger": 500
+          },
+          {
+            "url": "unit",
+            "valueString": "tablets"
+          },
+          {
+            "url": "expiryDate",
+            "valueDate": "2027-12-31"
+          },
+          {
+            "url": "stockStatus",
+            "valueString": "ADEQUATE"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Basic",
+        "id": "MED-002",
+        "code": {
+          "text": "Medication inventory snapshot"
+        },
+        "subject": {
+          "reference": "Organization/facility-demo"
+        },
+        "extension": [
+          {
+            "url": "itemName",
+            "valueString": "Amoxicillin"
+          },
+          {
+            "url": "category",
+            "valueString": "Antibiotics"
+          },
+          {
+            "url": "currentStock",
+            "valueInteger": 800
+          },
+          {
+            "url": "minimumRequired",
+            "valueInteger": 400
+          },
+          {
+            "url": "unit",
+            "valueString": "capsules"
+          },
+          {
+            "url": "expiryDate",
+            "valueDate": "2027-06-30"
+          },
+          {
+            "url": "stockStatus",
+            "valueString": "ADEQUATE"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Basic",
+        "id": "MED-003",
+        "code": {
+          "text": "Medication inventory snapshot"
+        },
+        "subject": {
+          "reference": "Organization/facility-demo"
+        },
+        "extension": [
+          {
+            "url": "itemName",
+            "valueString": "ORS"
+          },
+          {
+            "url": "category",
+            "valueString": "Rehydration"
+          },
+          {
+            "url": "currentStock",
+            "valueInteger": 300
+          },
+          {
+            "url": "minimumRequired",
+            "valueInteger": 100
+          },
+          {
+            "url": "unit",
+            "valueString": "sachets"
+          },
+          {
+            "url": "expiryDate",
+            "valueDate": "2026-11-30"
+          },
+          {
+            "url": "stockStatus",
+            "valueString": "ADEQUATE"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Basic",
+        "id": "DX-001",
+        "code": {
+          "text": "Medication inventory snapshot"
+        },
+        "subject": {
+          "reference": "Organization/facility-demo"
+        },
+        "extension": [
+          {
+            "url": "itemName",
+            "valueString": "Malaria RDT"
+          },
+          {
+            "url": "category",
+            "valueString": "Diagnostics"
+          },
+          {
+            "url": "currentStock",
+            "valueInteger": 15
+          },
+          {
+            "url": "minimumRequired",
+            "valueInteger": 150
+          },
+          {
+            "url": "unit",
+            "valueString": "kits"
+          },
+          {
+            "url": "expiryDate",
+            "valueDate": "2027-03-31"
+          },
+          {
+            "url": "stockStatus",
+            "valueString": "LOW"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Basic",
+        "id": "CON-001",
+        "code": {
+          "text": "Medication inventory snapshot"
+        },
+        "subject": {
+          "reference": "Organization/facility-demo"
+        },
+        "extension": [
+          {
+            "url": "itemName",
+            "valueString": "Gloves"
+          },
+          {
+            "url": "category",
+            "valueString": "Consumables"
+          },
+          {
+            "url": "currentStock",
+            "valueInteger": 500
+          },
+          {
+            "url": "minimumRequired",
+            "valueInteger": 200
+          },
+          {
+            "url": "unit",
+            "valueString": "pairs"
+          },
+          {
+            "url": "expiryDate",
+            "valueDate": "2028-01-15"
+          },
+          {
+            "url": "stockStatus",
+            "valueString": "ADEQUATE"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Basic",
+        "id": "CON-002",
+        "code": {
+          "text": "Medication inventory snapshot"
+        },
+        "subject": {
+          "reference": "Organization/facility-demo"
+        },
+        "extension": [
+          {
+            "url": "itemName",
+            "valueString": "Syringes"
+          },
+          {
+            "url": "category",
+            "valueString": "Consumables"
+          },
+          {
+            "url": "currentStock",
+            "valueInteger": 400
+          },
+          {
+            "url": "minimumRequired",
+            "valueInteger": 150
+          },
+          {
+            "url": "unit",
+            "valueString": "pieces"
+          },
+          {
+            "url": "expiryDate",
+            "valueDate": "2027-09-30"
+          },
+          {
+            "url": "stockStatus",
+            "valueString": "ADEQUATE"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Basic",
+        "id": "MED-004",
+        "code": {
+          "text": "Medication inventory snapshot"
+        },
+        "subject": {
+          "reference": "Organization/facility-demo"
+        },
+        "extension": [
+          {
+            "url": "itemName",
+            "valueString": "Artemether Lumefantrine"
+          },
+          {
+            "url": "category",
+            "valueString": "Antimalarials"
+          },
+          {
+            "url": "currentStock",
+            "valueInteger": 25
+          },
+          {
+            "url": "minimumRequired",
+            "valueInteger": 200
+          },
+          {
+            "url": "unit",
+            "valueString": "doses"
+          },
+          {
+            "url": "expiryDate",
+            "valueDate": "2026-07-15"
+          },
+          {
+            "url": "stockStatus",
+            "valueString": "LOW"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Basic",
+        "id": "MED-005",
+        "code": {
+          "text": "Medication inventory snapshot"
+        },
+        "subject": {
+          "reference": "Organization/facility-demo"
+        },
+        "extension": [
+          {
+            "url": "itemName",
+            "valueString": "Zinc tablets"
+          },
+          {
+            "url": "category",
+            "valueString": "Supplements"
+          },
+          {
+            "url": "currentStock",
+            "valueInteger": 600
+          },
+          {
+            "url": "minimumRequired",
+            "valueInteger": 200
+          },
+          {
+            "url": "unit",
+            "valueString": "tablets"
+          },
+          {
+            "url": "expiryDate",
+            "valueDate": "2026-12-31"
+          },
+          {
+            "url": "stockStatus",
+            "valueString": "ADEQUATE"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Basic",
+        "id": "MED-006",
+        "code": {
+          "text": "Medication inventory snapshot"
+        },
+        "subject": {
+          "reference": "Organization/facility-demo"
+        },
+        "extension": [
+          {
+            "url": "itemName",
+            "valueString": "Ceftriaxone"
+          },
+          {
+            "url": "category",
+            "valueString": "Antibiotics"
+          },
+          {
+            "url": "currentStock",
+            "valueInteger": 5
+          },
+          {
+            "url": "minimumRequired",
+            "valueInteger": 30
+          },
+          {
+            "url": "unit",
+            "valueString": "vials"
+          },
+          {
+            "url": "expiryDate",
+            "valueDate": "2026-06-30"
+          },
+          {
+            "url": "stockStatus",
+            "valueString": "LOW"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Basic",
+        "id": "MED-007",
+        "code": {
+          "text": "Medication inventory snapshot"
+        },
+        "subject": {
+          "reference": "Organization/facility-demo"
+        },
+        "extension": [
+          {
+            "url": "itemName",
+            "valueString": "IV fluids"
+          },
+          {
+            "url": "category",
+            "valueString": "Fluids"
+          },
+          {
+            "url": "currentStock",
+            "valueInteger": 150
+          },
+          {
+            "url": "minimumRequired",
+            "valueInteger": 50
+          },
+          {
+            "url": "unit",
+            "valueString": "bottles"
+          },
+          {
+            "url": "expiryDate",
+            "valueDate": "2027-04-30"
+          },
+          {
+            "url": "stockStatus",
+            "valueString": "ADEQUATE"
+          }
+        ]
+      }
+    }
+  ],
+  "note": "Demo FHIR-compatible bundle for review only; not validated against a national exchange endpoint."
+}

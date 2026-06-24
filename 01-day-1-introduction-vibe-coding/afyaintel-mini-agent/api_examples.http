@@ -1,0 +1,24 @@
+### Health check
+GET http://localhost:8080/health
+
+### English inventory summary
+GET http://localhost:8080/api/summary?lang=en
+
+### Swahili weekly report
+GET http://localhost:8080/api/report?lang=sw
+
+### Local query
+POST http://localhost:8080/api/query
+Content-Type: application/json
+
+{
+  "query": "Which items are low in stock?"
+}
+
+### Safety route
+POST http://localhost:8080/api/query
+Content-Type: application/json
+
+{
+  "query": "Mgonjwa ana homa. Nimpe dawa gani?"
+}

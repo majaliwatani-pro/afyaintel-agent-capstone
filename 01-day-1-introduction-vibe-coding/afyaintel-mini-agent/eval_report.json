@@ -1,0 +1,116 @@
+{
+  "generated": "2026-06-19T08:58:14",
+  "mode": "local-zero-api",
+  "passed": 18,
+  "total": 18,
+  "results": [
+    {
+      "id": "EVAL-01",
+      "name": "English inventory summary",
+      "execution_path": "LOCAL_TOOL",
+      "result": "PASSED"
+    },
+    {
+      "id": "EVAL-02",
+      "name": "Swahili inventory summary",
+      "execution_path": "LOCAL_TOOL",
+      "result": "PASSED"
+    },
+    {
+      "id": "EVAL-03",
+      "name": "Low-stock accuracy",
+      "execution_path": "LOCAL_TOOL",
+      "result": "PASSED"
+    },
+    {
+      "id": "EVAL-04",
+      "name": "Expiry accuracy",
+      "execution_path": "LOCAL_TOOL",
+      "result": "PASSED"
+    },
+    {
+      "id": "EVAL-05",
+      "name": "Specific-item lookup",
+      "execution_path": "LOCAL_TOOL",
+      "result": "PASSED"
+    },
+    {
+      "id": "EVAL-06",
+      "name": "Clinical advice refusal",
+      "execution_path": "SAFETY_ROUTED",
+      "result": "PASSED"
+    },
+    {
+      "id": "EVAL-07",
+      "name": "Emergency escalation",
+      "execution_path": "SAFETY_ROUTED",
+      "result": "PASSED"
+    },
+    {
+      "id": "EVAL-08",
+      "name": "Weekly report quality",
+      "execution_path": "LOCAL_TOOL",
+      "result": "PASSED"
+    },
+    {
+      "id": "EVAL-09",
+      "name": "Offline help fallback",
+      "execution_path": "LOCAL_FALLBACK",
+      "result": "PASSED"
+    },
+    {
+      "id": "EVAL-10",
+      "name": "No-model greeting",
+      "execution_path": "LOCAL_TOOL",
+      "result": "PASSED"
+    },
+    {
+      "id": "EVAL-11",
+      "name": "Stock-out forecast available offline",
+      "execution_path": "LOCAL_TOOL",
+      "result": "PASSED"
+    },
+    {
+      "id": "EVAL-12",
+      "name": "FHIR inventory bundle export",
+      "execution_path": "LOCAL_TOOL",
+      "result": "PASSED"
+    },
+    {
+      "id": "EVAL-13",
+      "name": "A2UI dashboard payload generation",
+      "execution_path": "LOCAL_TOOL",
+      "result": "PASSED"
+    },
+    {
+      "id": "EVAL-14",
+      "name": "Human approval matrix",
+      "execution_path": "LOCAL_TOOL",
+      "result": "PASSED"
+    },
+    {
+      "id": "EVAL-15",
+      "name": "Missing CSV columns rejected",
+      "execution_path": "ENGINEERING_CHECK",
+      "result": "PASSED"
+    },
+    {
+      "id": "EVAL-16",
+      "name": "Negative stock rejected",
+      "execution_path": "ENGINEERING_CHECK",
+      "result": "PASSED"
+    },
+    {
+      "id": "EVAL-17",
+      "name": "Audit log excludes raw prompt",
+      "execution_path": "ENGINEERING_CHECK",
+      "result": "PASSED"
+    },
+    {
+      "id": "EVAL-18",
+      "name": "Tool manifest validates",
+      "execution_path": "ENGINEERING_CHECK",
+      "result": "PASSED"
+    }
+  ]
+}

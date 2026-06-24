@@ -1,0 +1,48 @@
+{
+  "schema": "A2UI-DEMO-1.0",
+  "title": "AfyaIntel Facility Operations Dashboard",
+  "components": [
+    {
+      "type": "metric",
+      "label": "Total items",
+      "value": 10
+    },
+    {
+      "type": "metric",
+      "label": "Low-stock items",
+      "value": 3
+    },
+    {
+      "type": "metric",
+      "label": "Expiring within 30 days",
+      "value": 2
+    },
+    {
+      "type": "table",
+      "label": "High-risk stock-out items",
+      "columns": [
+        "item",
+        "risk",
+        "estimated_stockout_date"
+      ],
+      "rows": [
+        [
+          "Malaria RDT",
+          "HIGH",
+          "2026-06-16"
+        ],
+        [
+          "Artemether Lumefantrine",
+          "HIGH",
+          "2026-06-17"
+        ],
+        [
+          "Ceftriaxone",
+          "HIGH",
+          "2026-06-17"
+        ]
+      ]
+    }
+  ],
+  "safety_note": "Dashboard is decision support only; procurement requires human approval."
+}
